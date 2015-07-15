@@ -656,6 +656,7 @@
 				45B696391B56CD1A00382BFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45B6963A1B56CD1A00382BFB /* Build configuration list for PBXNativeTarget "SmartTasksTests" */ = {
 			isa = XCConfigurationList;
@@ -664,6 +665,7 @@
 				45B6963C1B56CD1A00382BFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
