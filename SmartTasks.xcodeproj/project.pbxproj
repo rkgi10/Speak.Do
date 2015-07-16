@@ -46,6 +46,7 @@
 		45B6968D1B56D2BA00382BFB /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B696701B56D2BA00382BFB /* TransitionManager.swift */; };
 		45B6968E1B56D2BA00382BFB /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B696711B56D2BA00382BFB /* TransitionZoom.swift */; };
 		45B6968F1B56D2BA00382BFB /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B696721B56D2BA00382BFB /* UnwindSegue.swift */; };
+		510A6B1A1B576651004DACD2 /* RecievedTasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510A6B191B576651004DACD2 /* RecievedTasksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +152,7 @@
 		45B696701B56D2BA00382BFB /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		45B696711B56D2BA00382BFB /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		45B696721B56D2BA00382BFB /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		510A6B191B576651004DACD2 /* RecievedTasksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecievedTasksTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 				45B696511B56CECD00382BFB /* SwiftyJSON.swift */,
 				45B6961A1B56CD1A00382BFB /* AppDelegate.swift */,
 				45B6961F1B56CD1A00382BFB /* ViewController.swift */,
+				510A6B191B576651004DACD2 /* RecievedTasksTableViewController.swift */,
 				45B696211B56CD1A00382BFB /* Main.storyboard */,
 				45B696241B56CD1A00382BFB /* Images.xcassets */,
 				45B696261B56CD1A00382BFB /* LaunchScreen.xib */,
@@ -442,6 +445,7 @@
 				45B6968C1B56D2BA00382BFB /* SpringView.swift in Sources */,
 				45B696521B56CECD00382BFB /* SwiftyJSON.swift in Sources */,
 				45B696741B56D2BA00382BFB /* AsyncImageView.swift in Sources */,
+				510A6B1A1B576651004DACD2 /* RecievedTasksTableViewController.swift in Sources */,
 				45B696771B56D2BA00382BFB /* DesignableButton.swift in Sources */,
 				45B6968E1B56D2BA00382BFB /* TransitionZoom.swift in Sources */,
 				45B696881B56D2BA00382BFB /* SpringImageView.swift in Sources */,
