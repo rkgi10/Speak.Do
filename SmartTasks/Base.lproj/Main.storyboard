@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="ARs-6L-0KK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -235,15 +235,15 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="iVh-eW-zWf" kind="relationship" relationship="viewControllers" id="kGz-NT-JMd"/>
-                        <segue destination="ro8-En-ryQ" kind="relationship" relationship="viewControllers" id="cDx-FX-Zk2"/>
+                        <segue destination="Th3-ar-v9U" kind="relationship" relationship="viewControllers" id="kGz-NT-JMd"/>
+                        <segue destination="1xb-1M-WWb" kind="relationship" relationship="viewControllers" id="cDx-FX-Zk2"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hli-TR-Z3F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1747.5" y="531.5"/>
         </scene>
-        <!--Recieved Tasks Table View Controller-->
+        <!--Recieved Tasks-->
         <scene sceneID="AyL-O4-Ddc">
             <objects>
                 <tableViewController id="iVh-eW-zWf" customClass="RecievedTasksTableViewController" customModule="SmartTasks" customModuleProvider="target" sceneMemberID="viewController">
@@ -251,19 +251,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="0.40000000000000002" green="0.73725490199999999" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="recievedTasksCell" rowHeight="206" id="qZp-A6-VSG">
-                                <rect key="frame" x="0.0" y="22" width="375" height="206"/>
+                                <rect key="frame" x="0.0" y="86" width="375" height="206"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qZp-A6-VSG" id="bXh-lG-Gvw">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="205.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <visualEffectView opaque="NO" contentMode="scaleToFill" id="eFb-nH-aZg">
-                                            <rect key="frame" x="0.0" y="129" width="375" height="75"/>
+                                            <rect key="frame" x="0.0" y="125" width="411" height="80"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="qfj-jr-rKF">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="411" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to work hard ?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="Pcp-uf-7Bn">
@@ -286,6 +287,9 @@
                                         </visualEffectView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="rdJ-0l-ls4" kind="modal" id="J7p-fb-SVC"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -293,14 +297,89 @@
                             <outlet property="delegate" destination="iVh-eW-zWf" id="YwQ-s8-Fzb"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" systemItem="downloads" id="ZRi-Y6-Vnh"/>
+                    <navigationItem key="navigationItem" title="Recieved Tasks" id="yjC-kR-Kfe"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N5g-n0-IeC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2287.5" y="318.5"/>
+            <point key="canvasLocation" x="2874.5" y="318.5"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
+        <scene sceneID="p57-ot-OCI">
+            <objects>
+                <viewController id="rdJ-0l-ls4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fa1-Uu-PXH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" id="GIb-UH-vlA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="bci-TM-oOP">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="straightLine" id="vn6-76-CRw">
+                                            <rect key="frame" x="0.0" y="189" width="375" height="1"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="straightLine" id="s9p-1T-rEv">
+                                            <rect key="frame" x="0.0" y="389" width="375" height="1"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="straightLine" id="oiQ-a1-XCn">
+                                            <rect key="frame" x="0.0" y="489" width="375" height="1"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="RU0-18-blK">
+                                            <rect key="frame" x="72" y="540" width="230" height="60"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="0.1215686275" green="0.18039215689999999" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                            <state key="normal" title="Next Step">
+                                                <color key="titleColor" red="0.81568627449999997" green="0.81568627449999997" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Step text which will be spoken simultaneously and also analysed. During this time we'll also" textAlignment="center" id="PbT-UG-5v9">
+                                            <rect key="frame" x="47" y="214" width="280" height="150"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5eS-2t-osK">
+                                            <rect key="frame" x="162" y="142" width="53" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to work hard?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mrS-Kh-d9g">
+                                            <rect key="frame" x="78" y="86" width="209" height="29"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4039215686" green="0.73725490199999999" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sPs-pl-TPQ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="trash" id="rXP-Ln-cTL"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UhY-FL-Sex" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3354.5" y="318.5"/>
+        </scene>
+        <!--Sent Tasks-->
         <scene sceneID="9VV-fG-2oJ">
             <objects>
                 <tableViewController id="ro8-En-ryQ" sceneMemberID="viewController">
@@ -309,12 +388,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="FnS-kz-CPq">
-                                <rect key="frame" x="0.0" y="22" width="375" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="recievedTasksCell" rowHeight="206" id="eKd-5V-fzK">
+                                <rect key="frame" x="0.0" y="86" width="375" height="206"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FnS-kz-CPq" id="wk6-1d-K86">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eKd-5V-fzK" id="1yS-63-owN">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="205.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" id="p7r-R2-gUa">
+                                            <rect key="frame" x="0.0" y="125" width="411" height="80"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9QZ-Ew-801">
+                                                <rect key="frame" x="0.0" y="0.0" width="411" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to work hard ?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="ZHR-zK-23C">
+                                                        <rect key="frame" x="8" y="8" width="359" height="24"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="12" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From Dad" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RcA-s8-WTv">
+                                                        <rect key="frame" x="8" y="40" width="359" height="24"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </view>
+                                            <blurEffect style="dark"/>
+                                        </visualEffectView>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -323,12 +429,12 @@
                             <outlet property="delegate" destination="ro8-En-ryQ" id="gQw-WF-HLt"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="QrD-jx-XoB"/>
+                    <navigationItem key="navigationItem" title="Sent Tasks" id="MnJ-bg-iXl"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sds-Qa-FND" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2287.5" y="1064.5"/>
+            <point key="canvasLocation" x="2874.5" y="1064.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Drc-uu-MK5">
@@ -422,10 +528,49 @@
             </objects>
             <point key="canvasLocation" x="-278" y="-381"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="iuc-NG-DXk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Th3-ar-v9U" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="downloads" id="ZRi-Y6-Vnh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KrE-tG-NUI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="iVh-eW-zWf" kind="relationship" relationship="rootViewController" id="2jC-g3-P0R"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u28-uq-Olw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2287.5" y="318.5"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Fpy-i4-UZK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1xb-1M-WWb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="QrD-jx-XoB"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mCA-bs-KHR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ro8-En-ryQ" kind="relationship" relationship="rootViewController" id="SRO-ag-N1u"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ce8-pW-OwH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2287.5" y="1064.5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Oval 8" width="126" height="126"/>
         <image name="Oval 8-2" width="152" height="152"/>
+        <image name="straightLine" width="372" height="1"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
