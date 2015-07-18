@@ -75,7 +75,7 @@
                                 <rect key="frame" x="0.0" y="86" width="375" height="206"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Pr3-9k-PCC" id="yv4-Yx-M21">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="205.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="205"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <visualEffectView opaque="NO" contentMode="scaleToFill" id="jI0-kY-zw1">
@@ -142,7 +142,7 @@
                                 <rect key="frame" x="0.0" y="86" width="375" height="205"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="v3M-tc-Ipd" id="N0a-om-ysq">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="204.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="204"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <visualEffectView opaque="NO" contentMode="scaleToFill" id="iBi-yE-aUc">
