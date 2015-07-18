@@ -23,7 +23,7 @@ class SentTaskListViewController: UIViewController , UITableViewDelegate , UITab
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-     let cell = tableView.dequeueReusableCellWithIdentifier("", forIndexPath: indexPath) as! UITableViewCell
+     let cell = tableView.dequeueReusableCellWithIdentifier("sentTasksCell", forIndexPath: indexPath) as! UITableViewCell
         
         return cell
     }
