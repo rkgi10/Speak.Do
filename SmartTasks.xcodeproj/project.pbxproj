@@ -33,6 +33,7 @@
 		45A506721B5ABFA4004A7CE1 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A506651B5ABFA4004A7CE1 /* SwiftRegex.swift */; };
 		45A506731B5ABFA4004A7CE1 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A506661B5ABFA4004A7CE1 /* WebSocket.swift */; };
 		45A506781B5AC5E1004A7CE1 /* SocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A506771B5AC5E1004A7CE1 /* SocketViewController.swift */; };
+		45A5067C1B5AE4DE004A7CE1 /* SentTaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5067B1B5AE4DE004A7CE1 /* SentTaskListViewController.swift */; };
 		45B6961B1B56CD1A00382BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6961A1B56CD1A00382BFB /* AppDelegate.swift */; };
 		45B6961E1B56CD1A00382BFB /* SmartTasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45B6961C1B56CD1A00382BFB /* SmartTasks.xcdatamodeld */; };
 		45B696201B56CD1A00382BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6961F1B56CD1A00382BFB /* ViewController.swift */; };
@@ -163,6 +164,7 @@
 		45A506651B5ABFA4004A7CE1 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
 		45A506661B5ABFA4004A7CE1 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
 		45A506771B5AC5E1004A7CE1 /* SocketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketViewController.swift; sourceTree = "<group>"; };
+		45A5067B1B5AE4DE004A7CE1 /* SentTaskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentTaskListViewController.swift; sourceTree = "<group>"; };
 		45B696151B56CD1A00382BFB /* SmartTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B696191B56CD1A00382BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B6961A1B56CD1A00382BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 				45B6961F1B56CD1A00382BFB /* ViewController.swift */,
 				511B980B1B581E45001E9123 /* RecievedTasksStepsViewController.swift */,
 				510A6B191B576651004DACD2 /* RecievedTasksTableViewController.swift */,
+				45A5067B1B5AE4DE004A7CE1 /* SentTaskListViewController.swift */,
 				45B696211B56CD1A00382BFB /* Main.storyboard */,
 				45B696241B56CD1A00382BFB /* Images.xcassets */,
 				45B696261B56CD1A00382BFB /* LaunchScreen.xib */,
@@ -582,6 +585,7 @@
 				45B696791B56D2BA00382BFB /* DesignableLabel.swift in Sources */,
 				45B6968D1B56D2BA00382BFB /* TransitionManager.swift in Sources */,
 				45B6967B1B56D2BA00382BFB /* DesignableTextField.swift in Sources */,
+				45A5067C1B5AE4DE004A7CE1 /* SentTaskListViewController.swift in Sources */,
 				45B696811B56D2BA00382BFB /* LoadingView.swift in Sources */,
 				45B696851B56D2BA00382BFB /* Spring.swift in Sources */,
 			);

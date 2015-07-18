@@ -304,10 +304,10 @@
             </objects>
             <point key="canvasLocation" x="2874.5" y="318.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Recieved Tasks Steps View Controller-->
         <scene sceneID="p57-ot-OCI">
             <objects>
-                <viewController id="rdJ-0l-ls4" sceneMemberID="viewController">
+                <viewController id="rdJ-0l-ls4" customClass="RecievedTasksStepsViewController" customModule="SmartTasks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fa1-Uu-PXH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -378,63 +378,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UhY-FL-Sex" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3354.5" y="318.5"/>
-        </scene>
-        <!--Sent Tasks-->
-        <scene sceneID="9VV-fG-2oJ">
-            <objects>
-                <tableViewController id="ro8-En-ryQ" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="4nv-uA-xdf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="recievedTasksCell" rowHeight="206" id="eKd-5V-fzK">
-                                <rect key="frame" x="0.0" y="86" width="375" height="206"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eKd-5V-fzK" id="1yS-63-owN">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="205.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <visualEffectView opaque="NO" contentMode="scaleToFill" id="p7r-R2-gUa">
-                                            <rect key="frame" x="0.0" y="125" width="411" height="80"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9QZ-Ew-801">
-                                                <rect key="frame" x="0.0" y="0.0" width="411" height="80"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to work hard ?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="ZHR-zK-23C">
-                                                        <rect key="frame" x="8" y="8" width="359" height="24"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" tag="12" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From Dad" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RcA-s8-WTv">
-                                                        <rect key="frame" x="8" y="40" width="359" height="24"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </view>
-                                            <blurEffect style="dark"/>
-                                        </visualEffectView>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="ro8-En-ryQ" id="97y-4v-kZG"/>
-                            <outlet property="delegate" destination="ro8-En-ryQ" id="gQw-WF-HLt"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Sent Tasks" id="MnJ-bg-iXl"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sds-Qa-FND" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2874.5" y="1064.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Drc-uu-MK5">
@@ -547,11 +490,11 @@
             </objects>
             <point key="canvasLocation" x="2287.5" y="318.5"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="Fpy-i4-UZK">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1xb-1M-WWb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="QrD-jx-XoB"/>
+                    <tabBarItem key="tabBarItem" systemItem="mostRecent" id="QrD-jx-XoB"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mCA-bs-KHR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -559,17 +502,89 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="ro8-En-ryQ" kind="relationship" relationship="rootViewController" id="SRO-ag-N1u"/>
+                        <segue destination="C5J-aH-vUA" kind="relationship" relationship="rootViewController" id="URj-Bh-d65"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ce8-pW-OwH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2287.5" y="1064.5"/>
         </scene>
+        <!--Sent Tasks-->
+        <scene sceneID="J1r-pQ-VMy">
+            <objects>
+                <viewController id="C5J-aH-vUA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HOK-fd-M5X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="CJw-no-4nD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="recievedTasksCell" rowHeight="206" id="lIW-9a-oYy">
+                                        <rect key="frame" x="0.0" y="86" width="375" height="206"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lIW-9a-oYy" id="sAm-Aw-Uco">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="205.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <visualEffectView opaque="NO" contentMode="scaleToFill" id="Ry0-Jv-nLC">
+                                                    <rect key="frame" x="0.0" y="125" width="411" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9Ln-Pp-gnm">
+                                                        <rect key="frame" x="0.0" y="0.0" width="411" height="80"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to work hard ?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="cyY-KJ-qUq">
+                                                                <rect key="frame" x="8" y="8" width="359" height="24"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="12" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From Dad" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bse-Jf-5BK">
+                                                                <rect key="frame" x="8" y="40" width="359" height="24"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </view>
+                                                    <blurEffect style="dark"/>
+                                                </visualEffectView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="C5J-aH-vUA" id="11m-MD-ViO"/>
+                                    <outlet property="delegate" destination="C5J-aH-vUA" id="kwE-is-UMn"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zPE-ZW-Fqv">
+                                <rect key="frame" x="301" y="554" width="58" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="compose button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sent Tasks" id="ejq-0o-aaK"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Pq-ZS-9F7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2752.5" y="1064.5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Oval 8" width="126" height="126"/>
         <image name="Oval 8-2" width="152" height="152"/>
+        <image name="compose button" width="58" height="58"/>
         <image name="straightLine" width="372" height="1"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
