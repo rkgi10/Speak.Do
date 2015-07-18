@@ -259,7 +259,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="205.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <visualEffectView opaque="NO" alpha="0.75" contentMode="scaleToFill" id="eFb-nH-aZg">
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" id="eFb-nH-aZg">
                                             <rect key="frame" x="0.0" y="129" width="375" height="75"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="qfj-jr-rKF">
