@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45A5063B1B5A789A004A7CE1 /* work.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45A5063A1B5A789A004A7CE1 /* work.gif */; };
+		45A506401B5A78A8004A7CE1 /* Reminder.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A5063F1B5A78A8004A7CE1 /* Reminder.png */; };
+		45A506421B5A78B0004A7CE1 /* biryani.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45A506411B5A78B0004A7CE1 /* biryani.jpg */; };
 		45B6961B1B56CD1A00382BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6961A1B56CD1A00382BFB /* AppDelegate.swift */; };
 		45B6961E1B56CD1A00382BFB /* SmartTasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45B6961C1B56CD1A00382BFB /* SmartTasks.xcdatamodeld */; };
 		45B696201B56CD1A00382BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6961F1B56CD1A00382BFB /* ViewController.swift */; };
@@ -110,6 +113,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		45A5063A1B5A789A004A7CE1 /* work.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = work.gif; sourceTree = "<group>"; };
+		45A5063F1B5A78A8004A7CE1 /* Reminder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reminder.png; sourceTree = "<group>"; };
+		45A506411B5A78B0004A7CE1 /* biryani.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = biryani.jpg; sourceTree = "<group>"; };
 		45B696151B56CD1A00382BFB /* SmartTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B696191B56CD1A00382BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B6961A1B56CD1A00382BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -216,6 +222,9 @@
 		45B696181B56CD1A00382BFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				45A506411B5A78B0004A7CE1 /* biryani.jpg */,
+				45A5063F1B5A78A8004A7CE1 /* Reminder.png */,
+				45A5063A1B5A789A004A7CE1 /* work.gif */,
 				45B696191B56CD1A00382BFB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -408,8 +417,11 @@
 			files = (
 				45B6967F1B56D2BA00382BFB /* Info.plist in Resources */,
 				45B696231B56CD1A00382BFB /* Main.storyboard in Resources */,
+				45A506421B5A78B0004A7CE1 /* biryani.jpg in Resources */,
 				45B696281B56CD1A00382BFB /* LaunchScreen.xib in Resources */,
+				45A5063B1B5A789A004A7CE1 /* work.gif in Resources */,
 				45B696251B56CD1A00382BFB /* Images.xcassets in Resources */,
+				45A506401B5A78A8004A7CE1 /* Reminder.png in Resources */,
 				45B696821B56D2BA00382BFB /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
