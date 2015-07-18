@@ -9,9 +9,13 @@
 import UIKit
 
 class RecievedTasksTableViewController: UITableViewController {
-
+    
+    let imagearray = ["Task1", "biryani.jpg" , "Reminder.png" , "work.gif"]
     override func viewDidLoad() {
         super.viewDidLoad()
+//        visualEffectView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Light))
+        
+        tableView.rowHeight = 206
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -36,7 +40,18 @@ class RecievedTasksTableViewController: UITableViewController {
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("recievedTasksCell", forIndexPath: indexPath) as! UITableViewCell
+        
+        //let backgroundImageView = UIImageView(image: UIImage(named: "task1"))
+        let backgroundImageView = UIColor(patternImage: UIImage(named: imagearray[indexPath.row])!)
+        
+        cell.backgroundColor = backgroundImageView
+        let taskTitle = cell.viewWithTag(11) as! UILabel
+        let taskSender = cell.viewWithTag(12) as! UILabel
+    
+        
+        
+        //(cell.viewWithTag(11) as! UIImageView).image = ""
 
         
 

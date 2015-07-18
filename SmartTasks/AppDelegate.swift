@@ -17,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //1 setting audiosession category and state
+        //AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayAndRecord, error: nil)
+        // AVAudioSession.sharedInstance().setActive(true, error: nil)
+        
+        //2 setting access key token
+        Wit.sharedInstance().accessToken = "EJT75WWQVWEGNMNFJ7KXFBUERFKQWL2X"
+        Wit.sharedInstance().detectSpeechStop = WITVadConfig.DetectSpeechStop
+        //  Wit.sharedInstance().vadTimeout = 1000
         return true
     }
 
