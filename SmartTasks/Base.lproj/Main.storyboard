@@ -235,7 +235,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="iVh-eW-zWf" kind="relationship" relationship="viewControllers" id="kGz-NT-JMd"/>
+                        <segue destination="Th3-ar-v9U" kind="relationship" relationship="viewControllers" id="kGz-NT-JMd"/>
                         <segue destination="ro8-En-ryQ" kind="relationship" relationship="viewControllers" id="cDx-FX-Zk2"/>
                     </connections>
                 </tabBarController>
@@ -243,7 +243,7 @@
             </objects>
             <point key="canvasLocation" x="1747.5" y="531.5"/>
         </scene>
-        <!--Recieved Tasks Table View Controller-->
+        <!--Recieved Tasks-->
         <scene sceneID="AyL-O4-Ddc">
             <objects>
                 <tableViewController id="iVh-eW-zWf" customClass="RecievedTasksTableViewController" customModule="SmartTasks" customModuleProvider="target" sceneMemberID="viewController">
@@ -251,19 +251,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="0.40000000000000002" green="0.73725490199999999" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="recievedTasksCell" rowHeight="206" id="qZp-A6-VSG">
-                                <rect key="frame" x="0.0" y="22" width="375" height="206"/>
+                                <rect key="frame" x="0.0" y="86" width="375" height="206"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qZp-A6-VSG" id="bXh-lG-Gvw">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="205.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <visualEffectView opaque="NO" contentMode="scaleToFill" id="eFb-nH-aZg">
-                                            <rect key="frame" x="0.0" y="129" width="375" height="75"/>
+                                            <rect key="frame" x="0.0" y="130" width="375" height="80"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="qfj-jr-rKF">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to work hard ?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="Pcp-uf-7Bn">
@@ -293,12 +294,12 @@
                             <outlet property="delegate" destination="iVh-eW-zWf" id="YwQ-s8-Fzb"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" systemItem="downloads" id="ZRi-Y6-Vnh"/>
+                    <navigationItem key="navigationItem" title="Recieved Tasks" id="yjC-kR-Kfe"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N5g-n0-IeC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2287.5" y="318.5"/>
+            <point key="canvasLocation" x="2874.5" y="318.5"/>
         </scene>
         <!--Item-->
         <scene sceneID="9VV-fG-2oJ">
@@ -421,6 +422,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PAs-4c-rdr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-278" y="-381"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="iuc-NG-DXk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Th3-ar-v9U" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="downloads" id="ZRi-Y6-Vnh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KrE-tG-NUI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="iVh-eW-zWf" kind="relationship" relationship="rootViewController" id="2jC-g3-P0R"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u28-uq-Olw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2287.5" y="318.5"/>
         </scene>
     </scenes>
     <resources>
