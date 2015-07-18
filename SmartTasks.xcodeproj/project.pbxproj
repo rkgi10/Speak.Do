@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45A5063B1B5A789A004A7CE1 /* work.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45A5063A1B5A789A004A7CE1 /* work.gif */; };
+		45A506401B5A78A8004A7CE1 /* Reminder.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A5063F1B5A78A8004A7CE1 /* Reminder.png */; };
+		45A506421B5A78B0004A7CE1 /* biryani.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45A506411B5A78B0004A7CE1 /* biryani.jpg */; };
+		45A506461B5A8FBA004A7CE1 /* Wit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45A506441B5A8FBA004A7CE1 /* Wit.bundle */; };
+		45A506471B5A8FBA004A7CE1 /* Wit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A506451B5A8FBA004A7CE1 /* Wit.framework */; };
+		45A506491B5A9041004A7CE1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A506481B5A9041004A7CE1 /* AVFoundation.framework */; };
+		45A5064B1B5A9049004A7CE1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A5064A1B5A9049004A7CE1 /* CoreLocation.framework */; };
+		45A5064D1B5A905F004A7CE1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A5064C1B5A905F004A7CE1 /* SystemConfiguration.framework */; };
+		45A5064F1B5A9066004A7CE1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A5064E1B5A9066004A7CE1 /* MobileCoreServices.framework */; };
+		45A506511B5A9077004A7CE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A506501B5A9077004A7CE1 /* UIKit.framework */; };
+		45A506531B5A907E004A7CE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A506521B5A907E004A7CE1 /* Foundation.framework */; };
+		45A506561B5A9159004A7CE1 /* any.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A506551B5A9159004A7CE1 /* any.m */; };
 		45B6961B1B56CD1A00382BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6961A1B56CD1A00382BFB /* AppDelegate.swift */; };
 		45B6961E1B56CD1A00382BFB /* SmartTasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45B6961C1B56CD1A00382BFB /* SmartTasks.xcdatamodeld */; };
 		45B696201B56CD1A00382BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6961F1B56CD1A00382BFB /* ViewController.swift */; };
@@ -110,6 +122,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		45A5063A1B5A789A004A7CE1 /* work.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = work.gif; sourceTree = "<group>"; };
+		45A5063F1B5A78A8004A7CE1 /* Reminder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reminder.png; sourceTree = "<group>"; };
+		45A506411B5A78B0004A7CE1 /* biryani.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = biryani.jpg; sourceTree = "<group>"; };
+		45A506441B5A8FBA004A7CE1 /* Wit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Wit.bundle; sourceTree = "<group>"; };
+		45A506451B5A8FBA004A7CE1 /* Wit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Wit.framework; sourceTree = "<group>"; };
+		45A506481B5A9041004A7CE1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		45A5064A1B5A9049004A7CE1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		45A5064C1B5A905F004A7CE1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		45A5064E1B5A9066004A7CE1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		45A506501B5A9077004A7CE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45A506521B5A907E004A7CE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45A506541B5A9158004A7CE1 /* SmartTasks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartTasks-Bridging-Header.h"; sourceTree = "<group>"; };
+		45A506551B5A9159004A7CE1 /* any.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = any.m; sourceTree = "<group>"; };
 		45B696151B56CD1A00382BFB /* SmartTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B696191B56CD1A00382BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B6961A1B56CD1A00382BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -162,7 +187,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A506531B5A907E004A7CE1 /* Foundation.framework in Frameworks */,
+				45A506511B5A9077004A7CE1 /* UIKit.framework in Frameworks */,
+				45A5064F1B5A9066004A7CE1 /* MobileCoreServices.framework in Frameworks */,
+				45A5064D1B5A905F004A7CE1 /* SystemConfiguration.framework in Frameworks */,
+				45A5064B1B5A9049004A7CE1 /* CoreLocation.framework in Frameworks */,
+				45A506491B5A9041004A7CE1 /* AVFoundation.framework in Frameworks */,
 				45B6964C1B56CE2900382BFB /* Alamofire.framework in Frameworks */,
+				45A506471B5A8FBA004A7CE1 /* Wit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,9 +208,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45A506431B5A8FBA004A7CE1 /* Wit-4.1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				45A506441B5A8FBA004A7CE1 /* Wit.bundle */,
+				45A506451B5A8FBA004A7CE1 /* Wit.framework */,
+			);
+			name = "Wit-4.1.0";
+			path = "Spring/Wit-4.1.0";
+			sourceTree = "<group>";
+		};
 		45B6960C1B56CD1A00382BFB = {
 			isa = PBXGroup;
 			children = (
+				45A506521B5A907E004A7CE1 /* Foundation.framework */,
+				45A506501B5A9077004A7CE1 /* UIKit.framework */,
+				45A5064E1B5A9066004A7CE1 /* MobileCoreServices.framework */,
+				45A5064C1B5A905F004A7CE1 /* SystemConfiguration.framework */,
+				45A5064A1B5A9049004A7CE1 /* CoreLocation.framework */,
+				45A506481B5A9041004A7CE1 /* AVFoundation.framework */,
 				45B6963D1B56CE1700382BFB /* Alamofire.xcodeproj */,
 				45B696171B56CD1A00382BFB /* SmartTasks */,
 				45B696301B56CD1A00382BFB /* SmartTasksTests */,
@@ -198,6 +246,7 @@
 		45B696171B56CD1A00382BFB /* SmartTasks */ = {
 			isa = PBXGroup;
 			children = (
+				45A506431B5A8FBA004A7CE1 /* Wit-4.1.0 */,
 				45B696541B56D2BA00382BFB /* Spring */,
 				45B696511B56CECD00382BFB /* SwiftyJSON.swift */,
 				45B6961A1B56CD1A00382BFB /* AppDelegate.swift */,
@@ -209,6 +258,8 @@
 				45B696261B56CD1A00382BFB /* LaunchScreen.xib */,
 				45B6961C1B56CD1A00382BFB /* SmartTasks.xcdatamodeld */,
 				45B696181B56CD1A00382BFB /* Supporting Files */,
+				45A506551B5A9159004A7CE1 /* any.m */,
+				45A506541B5A9158004A7CE1 /* SmartTasks-Bridging-Header.h */,
 			);
 			path = SmartTasks;
 			sourceTree = "<group>";
@@ -216,6 +267,9 @@
 		45B696181B56CD1A00382BFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				45A506411B5A78B0004A7CE1 /* biryani.jpg */,
+				45A5063F1B5A78A8004A7CE1 /* Reminder.png */,
+				45A5063A1B5A789A004A7CE1 /* work.gif */,
 				45B696191B56CD1A00382BFB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -408,8 +462,12 @@
 			files = (
 				45B6967F1B56D2BA00382BFB /* Info.plist in Resources */,
 				45B696231B56CD1A00382BFB /* Main.storyboard in Resources */,
+				45A506461B5A8FBA004A7CE1 /* Wit.bundle in Resources */,
+				45A506421B5A78B0004A7CE1 /* biryani.jpg in Resources */,
 				45B696281B56CD1A00382BFB /* LaunchScreen.xib in Resources */,
+				45A5063B1B5A789A004A7CE1 /* work.gif in Resources */,
 				45B696251B56CD1A00382BFB /* Images.xcassets in Resources */,
+				45A506401B5A78A8004A7CE1 /* Reminder.png in Resources */,
 				45B696821B56D2BA00382BFB /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +500,7 @@
 				45B696861B56D2BA00382BFB /* SpringAnimation.swift in Sources */,
 				45B6967E1B56D2BA00382BFB /* ImageLoader.swift in Sources */,
 				45B6968A1B56D2BA00382BFB /* SpringTextField.swift in Sources */,
+				45A506561B5A9159004A7CE1 /* any.m in Sources */,
 				45B6961B1B56CD1A00382BFB /* AppDelegate.swift in Sources */,
 				45B696781B56D2BA00382BFB /* DesignableImageView.swift in Sources */,
 				45B696841B56D2BA00382BFB /* SoundPlayer.swift in Sources */,
@@ -594,13 +653,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartTasks/Spring/Wit-4.1.0",
+				);
 				INFOPLIST_FILE = SmartTasks/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartTasks/SmartTasks-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -608,13 +674,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartTasks/Spring/Wit-4.1.0",
+				);
 				INFOPLIST_FILE = SmartTasks/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartTasks/SmartTasks-Bridging-Header.h";
 			};
 			name = Release;
 		};
