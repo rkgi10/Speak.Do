@@ -19,6 +19,21 @@
 		45A506511B5A9077004A7CE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A506501B5A9077004A7CE1 /* UIKit.framework */; };
 		45A506531B5A907E004A7CE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A506521B5A907E004A7CE1 /* Foundation.framework */; };
 		45A506561B5A9159004A7CE1 /* any.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A506551B5A9159004A7CE1 /* any.m */; };
+		45A506671B5ABFA4004A7CE1 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5065A1B5ABFA4004A7CE1 /* SocketAckManager.swift */; };
+		45A506681B5ABFA4004A7CE1 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5065B1B5ABFA4004A7CE1 /* SocketAnyEvent.swift */; };
+		45A506691B5ABFA4004A7CE1 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5065C1B5ABFA4004A7CE1 /* SocketEngine.swift */; };
+		45A5066A1B5ABFA4004A7CE1 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5065D1B5ABFA4004A7CE1 /* SocketEngineClient.swift */; };
+		45A5066B1B5ABFA4004A7CE1 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5065E1B5ABFA4004A7CE1 /* SocketEventHandler.swift */; };
+		45A5066C1B5ABFA4004A7CE1 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5065F1B5ABFA4004A7CE1 /* SocketFixUTF8.swift */; };
+		45A5066D1B5ABFA4004A7CE1 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A506601B5ABFA4004A7CE1 /* SocketIOClient.swift */; };
+		45A5066E1B5ABFA4004A7CE1 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A506611B5ABFA4004A7CE1 /* SocketLogger.swift */; };
+		45A5066F1B5ABFA4004A7CE1 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A506621B5ABFA4004A7CE1 /* SocketPacket.swift */; };
+		45A506701B5ABFA4004A7CE1 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A506631B5ABFA4004A7CE1 /* SocketParser.swift */; };
+		45A506711B5ABFA4004A7CE1 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A506641B5ABFA4004A7CE1 /* SocketTypes.swift */; };
+		45A506721B5ABFA4004A7CE1 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A506651B5ABFA4004A7CE1 /* SwiftRegex.swift */; };
+		45A506731B5ABFA4004A7CE1 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A506661B5ABFA4004A7CE1 /* WebSocket.swift */; };
+		45A506781B5AC5E1004A7CE1 /* SocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A506771B5AC5E1004A7CE1 /* SocketViewController.swift */; };
+		45A5067C1B5AE4DE004A7CE1 /* SentTaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5067B1B5AE4DE004A7CE1 /* SentTaskListViewController.swift */; };
 		45B6961B1B56CD1A00382BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6961A1B56CD1A00382BFB /* AppDelegate.swift */; };
 		45B6961E1B56CD1A00382BFB /* SmartTasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45B6961C1B56CD1A00382BFB /* SmartTasks.xcdatamodeld */; };
 		45B696201B56CD1A00382BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6961F1B56CD1A00382BFB /* ViewController.swift */; };
@@ -135,6 +150,21 @@
 		45A506521B5A907E004A7CE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		45A506541B5A9158004A7CE1 /* SmartTasks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartTasks-Bridging-Header.h"; sourceTree = "<group>"; };
 		45A506551B5A9159004A7CE1 /* any.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = any.m; sourceTree = "<group>"; };
+		45A5065A1B5ABFA4004A7CE1 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		45A5065B1B5ABFA4004A7CE1 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		45A5065C1B5ABFA4004A7CE1 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		45A5065D1B5ABFA4004A7CE1 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		45A5065E1B5ABFA4004A7CE1 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		45A5065F1B5ABFA4004A7CE1 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketFixUTF8.swift; sourceTree = "<group>"; };
+		45A506601B5ABFA4004A7CE1 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		45A506611B5ABFA4004A7CE1 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		45A506621B5ABFA4004A7CE1 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		45A506631B5ABFA4004A7CE1 /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParser.swift; sourceTree = "<group>"; };
+		45A506641B5ABFA4004A7CE1 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		45A506651B5ABFA4004A7CE1 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
+		45A506661B5ABFA4004A7CE1 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		45A506771B5AC5E1004A7CE1 /* SocketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketViewController.swift; sourceTree = "<group>"; };
+		45A5067B1B5AE4DE004A7CE1 /* SentTaskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentTaskListViewController.swift; sourceTree = "<group>"; };
 		45B696151B56CD1A00382BFB /* SmartTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B696191B56CD1A00382BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B6961A1B56CD1A00382BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -218,6 +248,26 @@
 			path = "Spring/Wit-4.1.0";
 			sourceTree = "<group>";
 		};
+		45A506591B5ABFA4004A7CE1 /* SocketIOClientSwift */ = {
+			isa = PBXGroup;
+			children = (
+				45A5065A1B5ABFA4004A7CE1 /* SocketAckManager.swift */,
+				45A5065B1B5ABFA4004A7CE1 /* SocketAnyEvent.swift */,
+				45A5065C1B5ABFA4004A7CE1 /* SocketEngine.swift */,
+				45A5065D1B5ABFA4004A7CE1 /* SocketEngineClient.swift */,
+				45A5065E1B5ABFA4004A7CE1 /* SocketEventHandler.swift */,
+				45A5065F1B5ABFA4004A7CE1 /* SocketFixUTF8.swift */,
+				45A506601B5ABFA4004A7CE1 /* SocketIOClient.swift */,
+				45A506611B5ABFA4004A7CE1 /* SocketLogger.swift */,
+				45A506621B5ABFA4004A7CE1 /* SocketPacket.swift */,
+				45A506631B5ABFA4004A7CE1 /* SocketParser.swift */,
+				45A506641B5ABFA4004A7CE1 /* SocketTypes.swift */,
+				45A506651B5ABFA4004A7CE1 /* SwiftRegex.swift */,
+				45A506661B5ABFA4004A7CE1 /* WebSocket.swift */,
+			);
+			path = SocketIOClientSwift;
+			sourceTree = "<group>";
+		};
 		45B6960C1B56CD1A00382BFB = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +296,7 @@
 		45B696171B56CD1A00382BFB /* SmartTasks */ = {
 			isa = PBXGroup;
 			children = (
+				45A506591B5ABFA4004A7CE1 /* SocketIOClientSwift */,
 				45A506431B5A8FBA004A7CE1 /* Wit-4.1.0 */,
 				45B696541B56D2BA00382BFB /* Spring */,
 				45B696511B56CECD00382BFB /* SwiftyJSON.swift */,
@@ -253,6 +304,7 @@
 				45B6961F1B56CD1A00382BFB /* ViewController.swift */,
 				511B980B1B581E45001E9123 /* RecievedTasksStepsViewController.swift */,
 				510A6B191B576651004DACD2 /* RecievedTasksTableViewController.swift */,
+				45A5067B1B5AE4DE004A7CE1 /* SentTaskListViewController.swift */,
 				45B696211B56CD1A00382BFB /* Main.storyboard */,
 				45B696241B56CD1A00382BFB /* Images.xcassets */,
 				45B696261B56CD1A00382BFB /* LaunchScreen.xib */,
@@ -260,6 +312,7 @@
 				45B696181B56CD1A00382BFB /* Supporting Files */,
 				45A506551B5A9159004A7CE1 /* any.m */,
 				45A506541B5A9158004A7CE1 /* SmartTasks-Bridging-Header.h */,
+				45A506771B5AC5E1004A7CE1 /* SocketViewController.swift */,
 			);
 			path = SmartTasks;
 			sourceTree = "<group>";
@@ -487,37 +540,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				45B696201B56CD1A00382BFB /* ViewController.swift in Sources */,
+				45A506731B5ABFA4004A7CE1 /* WebSocket.swift in Sources */,
 				45B696761B56D2BA00382BFB /* BlurView.swift in Sources */,
+				45A506681B5ABFA4004A7CE1 /* SocketAnyEvent.swift in Sources */,
 				45B696801B56D2BA00382BFB /* KeyboardLayoutConstraint.swift in Sources */,
 				45B6968B1B56D2BA00382BFB /* SpringTextView.swift in Sources */,
 				45B696731B56D2BA00382BFB /* AsyncButton.swift in Sources */,
 				45B6967C1B56D2BA00382BFB /* DesignableTextView.swift in Sources */,
+				45A506671B5ABFA4004A7CE1 /* SocketAckManager.swift in Sources */,
 				45B6968F1B56D2BA00382BFB /* UnwindSegue.swift in Sources */,
 				45B696891B56D2BA00382BFB /* SpringLabel.swift in Sources */,
 				45B6961E1B56CD1A00382BFB /* SmartTasks.xcdatamodeld in Sources */,
+				45A506701B5ABFA4004A7CE1 /* SocketParser.swift in Sources */,
+				45A506781B5AC5E1004A7CE1 /* SocketViewController.swift in Sources */,
 				511B980C1B581E45001E9123 /* RecievedTasksStepsViewController.swift in Sources */,
 				45B696751B56D2BA00382BFB /* AutoTextView.swift in Sources */,
 				45B696861B56D2BA00382BFB /* SpringAnimation.swift in Sources */,
+				45A5066D1B5ABFA4004A7CE1 /* SocketIOClient.swift in Sources */,
 				45B6967E1B56D2BA00382BFB /* ImageLoader.swift in Sources */,
+				45A5066B1B5ABFA4004A7CE1 /* SocketEventHandler.swift in Sources */,
 				45B6968A1B56D2BA00382BFB /* SpringTextField.swift in Sources */,
+				45A506691B5ABFA4004A7CE1 /* SocketEngine.swift in Sources */,
+				45A5066F1B5ABFA4004A7CE1 /* SocketPacket.swift in Sources */,
 				45A506561B5A9159004A7CE1 /* any.m in Sources */,
 				45B6961B1B56CD1A00382BFB /* AppDelegate.swift in Sources */,
 				45B696781B56D2BA00382BFB /* DesignableImageView.swift in Sources */,
+				45A5066C1B5ABFA4004A7CE1 /* SocketFixUTF8.swift in Sources */,
 				45B696841B56D2BA00382BFB /* SoundPlayer.swift in Sources */,
 				45B696831B56D2BA00382BFB /* Misc.swift in Sources */,
 				45B6967D1B56D2BA00382BFB /* DesignableView.swift in Sources */,
+				45A5066A1B5ABFA4004A7CE1 /* SocketEngineClient.swift in Sources */,
 				45B6968C1B56D2BA00382BFB /* SpringView.swift in Sources */,
 				45B696521B56CECD00382BFB /* SwiftyJSON.swift in Sources */,
 				45B696741B56D2BA00382BFB /* AsyncImageView.swift in Sources */,
 				510A6B1A1B576651004DACD2 /* RecievedTasksTableViewController.swift in Sources */,
 				45B696771B56D2BA00382BFB /* DesignableButton.swift in Sources */,
+				45A5066E1B5ABFA4004A7CE1 /* SocketLogger.swift in Sources */,
+				45A506721B5ABFA4004A7CE1 /* SwiftRegex.swift in Sources */,
 				45B6968E1B56D2BA00382BFB /* TransitionZoom.swift in Sources */,
 				45B696881B56D2BA00382BFB /* SpringImageView.swift in Sources */,
+				45A506711B5ABFA4004A7CE1 /* SocketTypes.swift in Sources */,
 				45B696871B56D2BA00382BFB /* SpringButton.swift in Sources */,
 				45B6967A1B56D2BA00382BFB /* DesignableTabBarController.swift in Sources */,
 				45B696791B56D2BA00382BFB /* DesignableLabel.swift in Sources */,
 				45B6968D1B56D2BA00382BFB /* TransitionManager.swift in Sources */,
 				45B6967B1B56D2BA00382BFB /* DesignableTextField.swift in Sources */,
+				45A5067C1B5AE4DE004A7CE1 /* SentTaskListViewController.swift in Sources */,
 				45B696811B56D2BA00382BFB /* LoadingView.swift in Sources */,
 				45B696851B56D2BA00382BFB /* Spring.swift in Sources */,
 			);
