@@ -258,7 +258,7 @@
                                 <rect key="frame" x="0.0" y="86" width="375" height="206"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qZp-A6-VSG" id="bXh-lG-Gvw">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="205"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="205.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <visualEffectView opaque="NO" contentMode="scaleToFill" id="eFb-nH-aZg">
@@ -586,6 +586,7 @@
         <image name="Down-100" width="100" height="100"/>
         <image name="Oval 8" width="126" height="126"/>
         <image name="Oval 8-2" width="152" height="152"/>
+        <image name="Up-100" width="100" height="100"/>
         <image name="compose button" width="58" height="58"/>
         <image name="straightLine" width="372" height="1"/>
     </resources>
